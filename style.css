@@ -1,0 +1,82 @@
+body{display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: black;
+    color: #e908a4;
+     width:80%;
+     margin:auto;
+margin-top: 100px;
+}
+.input{
+    width:500px;
+    height:50px;
+    border-radius:15px;
+    outline: none;
+    border:none;
+    font-size: 20px;
+}
+.add{
+   background-color: #e908a4;
+   color:white;
+    border-radius:15px;
+    outline: none;
+    border:none;
+    font-size: 20px;
+    cursor: pointer;
+    width:100px;
+    
+}
+.section{
+    display:flex;
+    flex-direction: row;
+    justify-content: space-around;
+    width:52%;
+}
+.text{
+    color:white;
+   
+}
+
+.section2{
+    display: flex;
+    justify-content: space-around;
+    width:40%;
+    flex-direction: column;
+    align-items: center;
+}
+.item{
+    width:80px;
+    color:white;
+}
+.item2{
+
+    width:80px;
+    color:white;
+text-decoration: line-through;
+}
+.complete{
+    padding:10px;
+    width:100px;
+    height:50px;
+    cursor: pointer;
+    border-radius:5px ;
+    outline:none;
+    font-size:14px;
+}
+.Delete{
+    padding:10px;
+    width:100px;
+    height:50px;
+    cursor: pointer;
+    border-radius:5px ;
+    outline:none;
+    font-size:14px;
+}
+.container{
+    display:flex;
+    flex-direction: row;
+    align-items: center;;
+    justify-content: space-around;
+    width:100%;
+}
